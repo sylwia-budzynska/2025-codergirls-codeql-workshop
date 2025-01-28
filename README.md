@@ -1,5 +1,5 @@
 <h1 align="center">Finding vulnerabilities with CodeQL</h1>
-<h3 align="center">CoderGirls Aarhus 2024</h3>
+<h3 align="center">CoderGirls Aarhus 2025</h3>
 
 <p align="center">
   <a href="#mega-prerequisites">Prerequisites</a> •
@@ -32,7 +32,7 @@ Note: The first 120 hours per core of Codespace usage are free per month, we use
 #### Instructions
 
 1. Login to your [GitHub](https://github.com/login) account
-2. Go to the repo https://github.com/sylwia-budzynska/orangecon-2024-codeql-workshop / (short link: https://gh.io/orangecon-2024-ws)
+2. Go to the repo https://github.com/sylwia-budzynska/2025-codergirls-codeql-workshop / (short link: https://gh.io/codergirls-codeql)
 3. Click on Code -> Codespaces
 4. Click on the plus sign (+) to create a new codespace.
 
@@ -63,8 +63,8 @@ Use a local CodeQL installation to work on the workshop exercises.
 1. Install [VS Code extension for CodeQL](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-codeql)
 2. Run in the terminal:
 ```bash
-git clone https://github.com/sylwia-budzynska/orangecon-2024-codeql-workshop.git
-cd orangecon-2024-codeql-workshop
+git clone https://github.com/sylwia-budzynska/2025-codergirls-codeql-workshop.git
+cd 2025-codergirls-codeql-workshop
 git submodule init
 git submodule update --recursive
 ```
@@ -502,5 +502,6 @@ Check out these resources if you'd like to know more about:
   - [CodeQL zero to hero part 2: getting started with CodeQL](https://github.blog/2023-06-15-codeql-zero-to-hero-part-2-getting-started-with-codeql/). Link to the [challenges accompanying the blog post](https://github.com/GitHubSecurityLab/codeql-zero-to-hero/tree/main/2)
 - security research with CodeQL:
   - [CodeQL zero to hero part 3: security research](https://github.blog/2024-04-29-codeql-zero-to-hero-part-3-security-research-with-codeql/). Link to the [challenges accompanying the blog post](https://github.com/GitHubSecurityLab/codeql-zero-to-hero/tree/main/3)
+   - [CodeQL zero to hero part 4: Gradio case study](https://github.blog/security/vulnerability-research/codeql-zero-to-hero-part-4-gradio-framework-case-study/). Link to the [challenges accompanying the blog post](https://github.com/GitHubSecurityLab/codeql-zero-to-hero/tree/main/4)
 
 If you end up finding a vulnerability using CodeQL, feel free to add it to the [CodeQL Wall of Fame](https://gh.io/codeql-wall-of-fame/).
