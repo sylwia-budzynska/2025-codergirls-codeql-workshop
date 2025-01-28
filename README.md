@@ -1,5 +1,5 @@
 <h1 align="center">Finding vulnerabilities with CodeQL</h1>
-<h3 align="center">OrangeCon 2024</h3>
+<h3 align="center">CoderGirls Aarhus 2024</h3>
 
 <p align="center">
   <a href="#mega-prerequisites">Prerequisites</a> •
@@ -394,7 +394,7 @@ Before you start with the next exercise:
 /**
  * @name Command injection in os.system sink
  * @kind path-problem
- * @id orangecon/dataflow-query
+ * @id codergirls/dataflow-query
  */
 
 import python
@@ -434,7 +434,7 @@ select sink.getNode(), source, sink, "Command injection"
 /**
  * @name Command injection in os.system sink
  * @kind path-problem
- * @id orangecon/dataflow-query
+ * @id codergirls/dataflow-query
  */
 
 import python
